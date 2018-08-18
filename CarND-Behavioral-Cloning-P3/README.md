@@ -171,8 +171,12 @@ The final model architecture (model.py lines 133-159) consisted of a convolution
 | Trainable params: 245,183 |
 | Non trainable params: 432 |
 
+
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
+
+
 ![alt text][image1]
+
 
 #### 3. Creation of the Training Set & Training Process
 
@@ -181,27 +185,46 @@ This comprises of images from center camera as well as left and right side-camer
 
 The center camera images provided training data for center lane driving. Below is an image from center camera:
 
+
 ![alt text][image2]
+
 
 For vehicle to recover from left and right sides of the road back to center, images from side-cameras were useful.
 Below are images from left and right camera respectively. As can be seen, these are good proxy for recovery.
+
+
 ![alt text][image3]
+
+
 ![alt text][image4]
+
 
 I gathered some data manually, by driving the car for few laps. This allowed getting more data around sharp curves.
 Below is an example image:
+
+
 ![alt text][image5]
+
 
 To augment the data sat, I also flipped images randomly (model.py lines 101, 107-109). 
 For example, here is an original image, and corresponding flipped one:
+
+
 ![alt text][image5]
+
+
 ![alt text][image6]
+
 
 After the collection process, I had 27242 number of data points. 
 The pre-processing steps are included as part of model pipeline. 
 These include converting the image to gray-scale and normalizing the image to center values.
 Below are examples of gray-scaled and image cropped image.
+
+
 ![alt text][image7]
+
+
 ![alt text][image8]
 
 
