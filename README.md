@@ -13,9 +13,19 @@ Take a look at the [model](https://github.com/aniryou/Udacity_SDC/blob/master/Ca
 
 ### Traffic Sign Classification
 
-This is second assignment for term 1 and required building a classifier for [German Traffic Sign dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)
+This is second assignment for term 1 and required building a classifier for 
+[German Traffic Sign dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)
 It also covers deep-learning topics and tensorflow library in depth.
 Take a look at [LeNet Lab](https://github.com/udacity/CarND-TensorFlow-Lab) and [Tensorflow Lab](https://github.com/udacity/CarND-TensorFlow-Lab).
 
-Using standard LeNet model with [Batch Normalization](https://www.tensorflow.org/api_docs/python/tf/layers/batch_normalization) and [Dropout](https://www.tensorflow.org/api_docs/python/tf/nn/dropout) I was able to get above 93% validation accuracy.
-Here are links to the [model](https://github.com/aniryou/Udacity_SDC/blob/master/CarND-Traffic-Sign-Classifier-Project/Traffic_Sign_Classifier.ipynb) and [writeup](https://github.com/aniryou/Udacity_SDC/blob/master/CarND-Traffic-Sign-Classifier-Project/writeup_traffic_sign_classifier.md).
+Using standard LeNet model with [Batch Normalization](https://www.tensorflow.org/api_docs/python/tf/layers/batch_normalization) and 
+[Dropout](https://www.tensorflow.org/api_docs/python/tf/nn/dropout) I was able to get above 93% validation accuracy.
+Here are links to the [model](https://github.com/aniryou/Udacity_SDC/blob/master/CarND-Traffic-Sign-Classifier-Project/Traffic_Sign_Classifier.ipynb) 
+and [writeup](https://github.com/aniryou/Udacity_SDC/blob/master/CarND-Traffic-Sign-Classifier-Project/writeup_traffic_sign_classifier.md).
+
+
+### Behavior Cloning
+
+This is third assignment for term 1. Here we create an end to end deep learning model to drive on a game simulator.
+I reused the LeNet model from Traffic Sign Classifier, but changed loss function to MSE of actual vs predicted steering angles.
+Take a look at the [Writeup](https://github.com/aniryou/Udacity_SDC/tree/master/CarND-Behavioral-Cloning-P3/README.md) 
