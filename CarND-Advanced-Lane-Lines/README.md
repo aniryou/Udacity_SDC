@@ -20,9 +20,9 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/undistort_output.png "Undistorted"
-[image2]: ./test_images/road_transformed.png "Road Transformed"
+[image2]: ./examples/road_transformed.png "Road Transformed"
 [image3]: ./examples/image_thresholds.png "Binary Example"
-[image4]: ./examples/warped_straight_lines.jpg "Warp Example"
+[image4]: ./examples/warped_straight_lines.png "Warp Example"
 [image5]: ./examples/polynomial_fit_window.png "Fit Visual"
 [image6]: ./examples/test6.jpg "Test image"
 [image7]: ./examples/detected_lanes_persp.png "Output"
@@ -75,7 +75,7 @@ Here's an example of my output for this step.  (note: this is not actually from 
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
-The code for my perspective transform includes a function called `warp()` and `unwarp()`, which appears in cells 19 through 21 in "Advanced Lane Finding.ipynb".  
+The code for my perspective transform includes a function called `warp()` and `unwarp()`, which appears in cells 19 through 20 in "Advanced Lane Finding.ipynb".  
 The `warp()` function takes as inputs an image (`img`).  I chose the hardcoded the source and destination points in the following manner:
 
 ```python
