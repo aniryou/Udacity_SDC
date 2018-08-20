@@ -29,3 +29,11 @@ and [writeup](https://github.com/aniryou/Udacity_SDC/blob/master/CarND-Traffic-S
 This is third assignment for term 1. Here we create an end to end deep learning model to drive on a game simulator.
 I reused the LeNet model from Traffic Sign Classifier, but changed loss function to MSE of actual vs predicted steering angles.
 Take a look at the [Writeup](https://github.com/aniryou/Udacity_SDC/tree/master/CarND-Behavioral-Cloning-P3/README.md) 
+
+
+### Advanced Lane Finding
+
+In this fourth assignment for term1, we redo the lane detection from first assignment. This time we detected lanes with varying curvatures,
+lighting and markings. We learn about camera calibration, perspective transformations and color channels. Using a combination
+of all of these techniques allows us to detect lanes with surprisingly better accuracy compared to assignment 1.
+Take a look at the [Writeup](https://github.com/aniryou/Udacity_SDC/blob/master/CarND-Advanced-Lane-Lines/README.md) 
