@@ -138,12 +138,15 @@ Here's an example result showing the heatmap from a series of frames of video, t
 `scipy.ndimage.measurements.label()` and the bounding boxes then overlaid on the last frame of video:
 
 1. Original image
+
 ![alt text][image5]
 
 2. Heat-map image
+
 ![alt text][image6]
 
 3. Separating bounding boxes with `scipy.ndimage.measurements.label()`
+
 ![alt text][image7]
 
 4. Image with bounding boxes
