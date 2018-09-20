@@ -122,7 +122,7 @@ Below images capture the original image, sliding-windows and predicted heat-map 
 ### Video Implementation
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (somewhat wobbly or unstable bounding boxes are ok as long as you are identifying the vehicles most of the time with minimal false positives.)
-Here's a [link to my video result](./project_video_with_vehicles.mp4)
+Here's a [link to my video result](./project_video_with_cars.mp4)
 
 The video uses 'Advanced Lane Finding' exercise to render end-to-end lane and vehicle detection.
 
