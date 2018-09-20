@@ -24,6 +24,8 @@ The goals / steps of this project are the following:
 [image7]: ./examples/labels_map.png
 [image8]: ./examples/output_bboxes.png
 [image9]: ./examples/vehicle_bbox2.png
+[image10]: ./examples/test1.jpg
+[image11]: ./examples/heatmap.png
 [video1]: ./project_video.mp4
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
@@ -139,11 +141,11 @@ Here's an example result showing the heatmap from a series of frames of video, t
 
 1. Original image
 
-![alt text][image5]
+![alt text][image10]
 
 2. Heat-map image
 
-![alt text][image6]
+![alt text][image11]
 
 3. Separating bounding boxes with `scipy.ndimage.measurements.label()`
 
