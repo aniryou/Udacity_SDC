@@ -37,3 +37,11 @@ In this fourth assignment for term1, we redo the lane detection from first assig
 lighting and markings. We learn about camera calibration, perspective transformations and color channels. Using a combination
 of all of these techniques allows us to detect lanes with surprisingly better accuracy compared to assignment 1.
 Take a look at the [Writeup](https://github.com/aniryou/Udacity_SDC/blob/master/CarND-Advanced-Lane-Lines/README.md) 
+
+
+### Vehicle Detection
+
+In this fifth and final assignment for term1, we build a model for vehicle detection. Even though there are existing deep-learning libraries and 
+models that do it well, the emphasis on lab is on classical computer vision techniques such as 'Histogram of Oriented Gradients' and
+'Sliding Window' search. This limitation makes it challenging, but at the same time exposes to classical work which can be useful at times.
+Take a look at the [Writeup](https://github.com/aniryou/Udacity_SDC/blob/master/CarND-Vehicle-Detection/README.md) 
